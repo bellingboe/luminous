@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+	<head>
+		<script>window.$ = window.jQuery = require('jquery');</script>
+        <meta charset="UTF-8">
+          <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+		<link href="//fonts.googleapis.com/css?family=Exo:100,200,300,400,500,700" rel="stylesheet" type="text/css">
+		<style>
+		@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaijaan');
+		
+		.container {
+			padding: 20px 0;
+			display: flex;
+			flex-direction: column;
+			 max-widht:80%;
+		}
+		
+	.button {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between
+	}
+		
+		body {
+			padding:0;
+			margin: 0;
+			font-family: 'Baloo Bhaijaan', cursive;
+			background-color: #292E30;
+        }
+		
+		a,
+		a:link,
+		a:visited {
+			color: white;;
+			padding:20px;
+			text-align:center;
+			background: #1e5088;;
+			font-size:26pt;
+			display: block;
+			margin: 10px;
+			text-decoration: none;
+			border-bottom: 3px solid #1e374f;
+			box-shadow: 0px 4px 7px 1px rgba(0, 0, 0, 0.3);
+            clear:both;
+            margin-bottom: 10px;
+		}
+		a:hover {
+			background: white;
+			color: #1e5088;;
+		}
+		.content {
+			max-width:90%;
+			margin:0 auto;
+			text-align:center;
+			margin-top:12%;
+		}
+		h1 {
+			font-family: 'Exo', sans-serif;
+			color: white;
+			text-align:center;
+			margin:55px;
+            text-shadow: 0 3px 0 #1C1F21;
+		}
+		
+		</style>
+	</head>
+	<body>
+		
+		<div class="content">
+			<h1>Choose A Service</h1>
+			
+			    <div class="tooltip"></div>
+			
+			<a data-tooltip="Type a messagethat can be shared with a link. The messge will be deleted upon viewing." href="/msg/">Single Messages</a>
+			<a data-tooltip="You can use our chat service to send PGP+AES-encrypted messages that can never be read by staff (or hackers)" href="/chat/">Encrypted Chat</a>
+			<a data-tooltip="Create and manage your PGP keypairs in a 1-stop place for decrypting and encrypting messages." href="/keys/">PGP Keys</a>
+		</div>
+		
+    </body>
+</html>

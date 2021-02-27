@@ -1,0 +1,14 @@
+{
+  "name": "Luminous",
+  "version": "0.1.0",
+  "description": "My Mac Desktop App",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Me",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^2.1.4"
+  }
+}
